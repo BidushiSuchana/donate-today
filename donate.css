@@ -1,29 +1,32 @@
-*{ 
+* {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* header section */
-.header{
+.header {
     text-align: center;
-    padding:  10px 300px;
+    padding: 10px 300px;
     background-image: url(./images/donation5.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
-.header-title{
+.header-title {
     font-size: 35px;
     font-weight: 700;
     margin-top: 174px;
-    padding: 0px 150px;  
-    color: white; 
+    padding: 0px 150px;
+    color: white;
 }
-.header-description{
-    gap:10px;
+
+.header-description {
+    gap: 10px;
     font-size: 16px;
     padding: 0px 100px;
     color: white;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FF5959;
     font-size: 20px;
@@ -31,73 +34,137 @@
     border: none;
     font-weight: 600;
     padding: 16px;
-    gap:10px;
+    gap: 10px;
     color: white;
     margin-bottom: 175px;
 }
-/* Donate today section */
-.donate-header{
+
+/* donate today section */
+.donate-today{
+    margin: 130px 300px;
+}
+.donate-today-header {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.donate-today-description {
+    color: #707070;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.takaContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+
+.taka {
+    background-color: #FAFAFA;
+    padding: 22px 43px;
+    border-radius: 5px;
+    color: #707070;
+}
+
+#bg-orange {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+
+.taka-description {
+    text-align: center;
+    color: #B3B3B3;
+    font-size: 16px;
+
+}
+
+/* Our Donate Plan section */
+
+.donateplane-header {
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 36px;
     text-align: center;
 }
-.donate-description{
+
+.donateplane-description {
     padding: 0px 400px;
-    color:#707070;
+    color: #707070;
     text-align: center;
     margin-bottom: 20px;
 }
+
 /* image food shelter education */
-.food-shelter-edu-bg1{
+.food-shelter-edu-bg1 {
     border-radius: 5px;
     background: rgba(79, 157, 166, 0.10);
-    padding: 0px,20px;
-    padding-bottom: 20px;
+    padding: 50px 20px;
 }
-.food-shelter-edu-bg2{
+
+.food-shelter-edu-bg2 {
     border-radius: 5px;
     background: rgba(255, 89, 89, 0.10);
-
+    padding: 50px 20px;
 
 }
-.food-shelter-edu-bg3{
+
+.food-shelter-edu-bg3 {
     border-radius: 5px;
     background: #FFF4D6;
+    padding: 50px 20px;
 }
-     
 
-.food-shelter-edu{
+
+.food-shelter-edu {
     display: flex;
     margin: 0px 100px;
     gap: 24px;
 }
-.food-description{
+
+.food-description {
     font-size: 12px;
     color: #707070;
 }
+
 /* depend-donation section */
-.depend-donation-bg{
+.depend-donation-bg {
     display: flex;
+    gap: 50px;
 }
 
-.depend-donation{
+.depend-donation {
     margin-top: 100px;
+    margin-left: 100px;
 
 }
-.depend-donation-1stp{
+
+.depend-donation-1stp {
     font-size: 16px;
     color: #707070;
-}
-.depend-donation-2ndp{
-    font-size: 16px;
-    color:#707070;
-}
-.depend-donation-img{
-   
 
 }
-.alu{
-    width: 825px;
-height: 550px;
+
+.depend-donation-2ndp {
+    font-size: 16px;
+    color: #707070;
+
 }
+
+.depend-donation-img {}
+
+.alu {
+    width: 600px;
+    height: 350px;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+.btn-primary {}
