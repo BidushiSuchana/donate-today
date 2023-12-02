@@ -76,3 +76,28 @@
     font-size: 12px;
     color: #707070;
 }
+/* depend-donation section */
+.depend-donation-bg{
+    display: flex;
+}
+
+.depend-donation{
+    margin-top: 100px;
+
+}
+.depend-donation-1stp{
+    font-size: 16px;
+    color: #707070;
+}
+.depend-donation-2ndp{
+    font-size: 16px;
+    color:#707070;
+}
+.depend-donation-img{
+   
+
+}
+.alu{
+    width: 825px;
+height: 550px;
+}
